@@ -1,0 +1,20 @@
+.matrix {
+  font-size: 14px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.disabled > div {
+  opacity: 0.38;
+}
+
+.matrix > div > label {
+  display: block;
+  margin: 0;
+}
+
+.radioGroup {
+  display: contents;
+}

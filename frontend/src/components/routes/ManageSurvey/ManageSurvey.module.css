@@ -1,0 +1,42 @@
+.questionsTable {
+  width: 100%;
+}
+
+.tab {
+  margin: -1rem 0 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.createButton {
+  margin-bottom: 2rem;
+}
+
+.editButton, .duplicateButton, .linkIcon {
+  color: var(--primary-clr);
+}
+
+.deleteButton {
+  color: var(--danger-clr);
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+  color: var(--danger-clr);
+  filter: brightness(95%);
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.flexRow > div {
+  padding: 0.4rem 1.5rem !important;
+}

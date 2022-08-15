@@ -1,0 +1,18 @@
+.root button {
+  color: var(--black-clr);
+  text-transform: none;
+  font-size: 18px;
+  padding: 0;
+  min-width: 110px;
+  margin: 0 var(--tabs-margin);
+  opacity: 1;
+}
+
+.selected {
+  font-weight: bolder;
+}
+
+.indicator {
+  background-color: var(--tabs-bar-clr);
+  height: var(--tabs-bar-height);
+}

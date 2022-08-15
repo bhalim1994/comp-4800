@@ -1,0 +1,27 @@
+.root {
+  position: fixed;
+  z-index: 1500;
+  background-color: var(--white-clr);
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+  padding: var(--sidedrawer-modal-padding);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  width: var(--sidedrawer-modal-width);
+  transition: all 0.5s ease-out;
+  transform: translateX(100vw);
+  opacity: 0;
+  overflow-y: auto;
+}
+
+.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.closeIcon {
+  color: var(--primary-clr) !important;
+  font-size: 42px;
+  cursor: pointer;
+}

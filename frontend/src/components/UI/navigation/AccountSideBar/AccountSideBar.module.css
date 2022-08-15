@@ -1,0 +1,30 @@
+.drawerPaper {
+  width: var(--drawerWidth);
+}
+
+.drawerPaper,
+.navIcon {
+  background-color: var(--primary-clr);
+  color: var(--white-clr);
+}
+
+.sideBarContent {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .drawer {
+    width: var(--drawerWidth);
+    flex-shrink: 0;
+  }
+
+  .swipeableSidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .sidebar {
+    display: none;
+  }
+}

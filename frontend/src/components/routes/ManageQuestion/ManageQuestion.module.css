@@ -1,0 +1,25 @@
+.form > div {
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  margin: -1rem 0 2rem;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.deleteButton {
+  background-color: var(--danger-clr);
+  color: var(--white-clr);
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: var(--danger-clr);
+  color: var(--white-clr);
+  filter: brightness(95%);
+}

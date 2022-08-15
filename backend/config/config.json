@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "comp4800",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "comp4800_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "bsn-s_admin",
+    "password": "Admin1!2@",
+    "database": "bsn-surveys_plesk_database",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

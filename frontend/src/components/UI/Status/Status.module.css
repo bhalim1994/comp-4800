@@ -1,0 +1,18 @@
+.root {
+  cursor: default;
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.active {
+  background-color: var(--successBg-clr);
+  color: var(--success-clr);
+}
+
+.inactive {
+  background-color: var(--dangerBg-clr);
+  color: var(--danger2-clr);
+}

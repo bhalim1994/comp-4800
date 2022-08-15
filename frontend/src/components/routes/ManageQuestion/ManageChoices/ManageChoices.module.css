@@ -1,0 +1,61 @@
+.root {
+  width: 100%;
+}
+
+.subtitle {
+  margin: 0px;
+}
+
+.addChoiceContainer {
+  margin: 0 0px 10px 0px;
+}
+
+.addChoiceContainer > button {
+  min-width: max-content;
+}
+
+.editButton, .saveButton, .undoButton, .linkButton {
+  color: var(--primary-clr);
+}
+
+.deleteButton {
+  color: var(--danger-clr);
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+  color: var(--danger-clr);
+  filter: brightness(95%);
+}
+
+/* Question linking */
+.linkedQuestions {
+  max-height: 33vh;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+.linkedQuestions > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-clr);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  font-size: 14px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  min-height: 50px;
+}
+
+.noLinkedQuestionMsg {
+  justify-content: center !important;
+  font-weight: 500;
+  color: var(--danger-clr);
+}
+
+.numberOflinkedQuestions {
+  background-color: var(--bg-clr);
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+}

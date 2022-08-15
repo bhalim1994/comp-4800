@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  height: fit-content;
+  min-height: 100vh;
+  background-color: var(--bg-clr);
+  margin-top: 2rem;
+}
+
+.contentContainer {
+  padding: 1.5rem 2rem;
+  height: fit-content;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 700px) {
+  .toolbar {
+    display: none;
+  }
+}

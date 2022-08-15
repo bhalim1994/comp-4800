@@ -1,0 +1,32 @@
+.root table {
+  width: 100%;
+}
+
+.subtitle {
+  margin: 0.3rem 0 0.5rem;
+}
+
+.deleteButton {
+  color: var(--danger-clr);
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+  color: var(--danger-clr);
+  filter: brightness(95%);
+}
+
+.confirmDelete {
+  background-color: var(--danger-clr);
+  transition: 0.3s;
+}
+
+.confirmDelete:hover {
+  background-color: var(--danger-clr);
+  filter: brightness(90%);
+}
+
+.importantDialogText {
+  color: #424548;
+  font-weight: bold;
+}

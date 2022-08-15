@@ -1,0 +1,11 @@
+@media screen and (min-width: 700px) {
+    .root {
+        width: calc(100% - var(--drawerWidth));
+        margin-left: var(--drawerWidth);
+        display: none;
+    }
+
+    .menuButton {
+        display: none;
+    }
+}
